@@ -1,24 +1,417 @@
+
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>acua-dream-builder-web</title>
-    <meta name="description" content="Lovable Generated Project" />
-    <meta name="author" content="Lovable" />
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AcuaBeach - Unlock Your Tropical Paradise Dream in Cartagena</title>
+    <meta name="description" content="Own prime buildable lots in Cartagena, Colombia with up to 90% financing. AcuaBeach empowers working-class Americans to own tropical paradise properties.">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Phosphor Icons -->
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+    
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <h2>AcuaBeach</h2>
+            </div>
+            <div class="nav-menu" id="nav-menu">
+                <a href="#hero" class="nav-link">Home</a>
+                <a href="#why-cartagena" class="nav-link">Why Cartagena</a>
+                <a href="#why-us" class="nav-link">Why Us</a>
+                <a href="#testimonials" class="nav-link">Testimonials</a>
+                <a href="#lot-categories" class="nav-link">Properties</a>
+                <a href="#features" class="nav-link">Features</a>
+                <a href="#pricing" class="nav-link">Pricing</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </div>
+            <div class="nav-toggle" id="nav-toggle">
+                <i class="ph ph-list"></i>
+            </div>
+        </div>
+    </nav>
 
-    <meta property="og:title" content="acua-dream-builder-web" />
-    <meta property="og:description" content="Lovable Generated Project" />
-    <meta property="og:type" content="website" />
-    <meta property="og:image" content="https://lovable.dev/opengraph-image-p98pqg.png" />
+    <!-- Hero Section -->
+    <section class="hero" id="hero">
+        <div class="hero-background">
+            <img src="/lovable-uploads/97c6fc08-cf72-4b7c-b9a1-7b58a480441d.png" alt="Luxury beachfront property with rooftop pool overlooking Cartagena's historic center and Caribbean sea" class="hero-bg-image">
+            <div class="hero-overlay"></div>
+        </div>
+        <div class="hero-content">
+            <h1 class="hero-title animate-on-load">Unlock Your Tropical Paradise Dream: Affordable Cartagena Properties with Up To 90% Financing</h1>
+            <p class="hero-description animate-on-load">AcuaBeach empowers working-class Americans to own prime buildable lots in vibrant Cartagena, Colombia. Experience truly hassle-free ownership with our unique financing, full-service support from acquisition to development, and expert guidance to make your vision a reality.</p>
+            <button class="btn-primary animate-on-load" onclick="scrollToSection('contact')">
+                Get Started
+                <i class="ph ph-arrow-right"></i>
+            </button>
+        </div>
+    </section>
 
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:site" content="@lovable_dev" />
-    <meta name="twitter:image" content="https://lovable.dev/opengraph-image-p98pqg.png" />
-  </head>
+    <!-- Why Cartagena Section -->
+    <section class="section why-cartagena" id="why-cartagena">
+        <div class="container">
+            <div class="section-header animate-on-scroll">
+                <h2 class="section-title">Why Cartagena: Invest in Colombia's Next Real Estate Boom</h2>
+                <p class="section-description">Cartagena is a rapidly appreciating real estate market with exponential growth potential. Property values are currently increasing sharply, poised for further significant surges upon the completion of the second international airport. This is your unparalleled opportunity to secure your investment on the ground floor of a flourishing Caribbean paradise, where a $200,000 beachfront lot can offer value comparable to multi-million dollar properties in Florida.</p>
+            </div>
+            <div class="cartagena-grid">
+                <div class="cartagena-card glass-card animate-on-scroll">
+                    <img src="/lovable-uploads/aa5a5085-a1f5-48e7-9121-a16480f18ec6.png" alt="Aerial view of Cartagena's historic center with modern skyline and Caribbean coastline">
+                    <div class="card-content">
+                        <h3>Historic Charm Meets Modern Growth</h3>
+                        <p>UNESCO World Heritage city experiencing unprecedented development</p>
+                    </div>
+                </div>
+                <div class="cartagena-card glass-card animate-on-scroll">
+                    <img src="/lovable-uploads/c3ffe65b-0137-4126-8327-cea10874a31d.png" alt="Pristine Caribbean beach with colorful beach huts and crystal clear turquoise water">
+                    <div class="card-content">
+                        <h3>Caribbean Paradise</h3>
+                        <p>Direct access to world-class beaches and tropical lifestyle</p>
+                    </div>
+                </div>
+                <div class="cartagena-card glass-card animate-on-scroll">
+                    <img src="/lovable-uploads/72021fb8-cd9b-4d66-a41b-3bbb2230961c.png" alt="Modern beachfront development with high-rise buildings along pristine sandy beach">
+                    <div class="card-content">
+                        <h3>Explosive Growth Potential</h3>
+                        <p>Property values surging with new airport completion on horizon</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-  <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.tsx"></script>
-  </body>
+    <!-- Why Work With Us Section -->
+    <section class="section why-us" id="why-us">
+        <div class="container">
+            <div class="section-header animate-on-scroll">
+                <h2 class="section-title">Your Dream, Our Commitment: The AcuaBeach Advantage</h2>
+                <p class="section-description">At AcuaBeach, we are passionately dedicated to helping the average travel enthusiast realize their dream of owning a piece of tropical paradise. We stand alone in the market by offering an unprecedented up to 90% financing because we own all our prime lots outright, cutting out intermediaries. Beyond acquisition, we are a full-service organization providing comprehensive support for developing your acquired lot(s), transforming your vision into reality, whether it's an A-frame, Mediterranean, or any other style.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="section testimonials" id="testimonials">
+        <div class="container">
+            <div class="section-header animate-on-scroll">
+                <h2 class="section-title">What Our Clients Say</h2>
+            </div>
+            <div class="testimonials-carousel" id="testimonials-carousel">
+                <div class="testimonial-card glass-card animate-on-scroll">
+                    <div class="testimonial-avatar">
+                        <div class="avatar-placeholder">M</div>
+                    </div>
+                    <div class="testimonial-content">
+                        <p class="testimonial-text">"I never thought I could afford to own a property just a few blocks from the Caribbean sea. AcuaBeach not only made that possible, but I was able to get started with just a downpayment. The best part was I could use the property whenever I travel to Cartagena. Great people, great opportunity."</p>
+                        <div class="testimonial-author">
+                            <h4>Maria Rodriguez</h4>
+                            <span>Miami, FL</span>
+                        </div>
+                        <div class="testimonial-result">
+                            <strong>Result:</strong> Achieved affordable tropical property ownership with low down payment
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card glass-card animate-on-scroll">
+                    <div class="testimonial-avatar">
+                        <div class="avatar-placeholder">J</div>
+                    </div>
+                    <div class="testimonial-content">
+                        <p class="testimonial-text">"I was a bit skeptical at first, but I was pleasantly surprised when I visited the lots. I chose one on the spot, and the process was incredibly smooth. AcuaBeach delivered on every promise."</p>
+                        <div class="testimonial-author">
+                            <h4>James Wilson</h4>
+                            <span>Austin, TX</span>
+                        </div>
+                        <div class="testimonial-result">
+                            <strong>Result:</strong> Successfully acquired a prime lot, exceeding expectations
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card glass-card animate-on-scroll">
+                    <div class="testimonial-avatar">
+                        <div class="avatar-placeholder">S</div>
+                    </div>
+                    <div class="testimonial-content">
+                        <p class="testimonial-text">"The financing options made this dream achievable for our family. We're now building our vacation home and couldn't be happier with the location and support from the AcuaBeach team."</p>
+                        <div class="testimonial-author">
+                            <h4>Sarah & Mike Chen</h4>
+                            <span>Portland, OR</span>
+                        </div>
+                        <div class="testimonial-result">
+                            <strong>Result:</strong> Built dream vacation home with flexible financing
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-controls">
+                <button class="carousel-btn" id="prev-btn">
+                    <i class="ph ph-caret-left"></i>
+                </button>
+                <button class="carousel-btn" id="next-btn">
+                    <i class="ph ph-caret-right"></i>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Lot Categories Section -->
+    <section class="section lot-categories" id="lot-categories">
+        <div class="container">
+            <div class="section-header animate-on-scroll">
+                <h2 class="section-title">Choose Your Perfect Paradise</h2>
+            </div>
+            <div class="categories-grid">
+                <div class="category-card glass-card animate-on-scroll">
+                    <div class="card-image">
+                        <img src="/lovable-uploads/227a94a9-b3ac-46a6-9cd1-1871d59243b6.png" alt="Pristine beachfront with turquoise water and people enjoying water activities">
+                    </div>
+                    <div class="card-content">
+                        <h3>Beachfront Properties</h3>
+                        <p>Wake up to the Caribbean Sea. Direct access to pristine sands and unparalleled views. Your ultimate luxury escape.</p>
+                    </div>
+                </div>
+                <div class="category-card glass-card animate-on-scroll">
+                    <div class="card-image">
+                        <img src="/lovable-uploads/3c57bb02-5ece-4234-b7ff-888ac5a5ee72.png" alt="Beautiful beach with colorful umbrellas and crystal clear water just steps away">
+                    </div>
+                    <div class="card-content">
+                        <h3>Beach Access Properties</h3>
+                        <p>Just steps from the shore. Enjoy beach living without the beachfront premium. The perfect balance of value and convenience.</p>
+                    </div>
+                </div>
+                <div class="category-card glass-card animate-on-scroll">
+                    <div class="card-image">
+                        <img src="/lovable-uploads/e6dc7608-81a2-4e5f-aaf5-232ca6451061.png" alt="Tropical paradise beach with palm trees and pristine white sand">
+                    </div>
+                    <div class="card-content">
+                        <h3>Tropical Paradise Properties</h3>
+                        <p>Secluded havens nestled amidst lush Colombian landscapes. Ideal for tranquil retreats and connecting with nature.</p>
+                    </div>
+                </div>
+                <div class="category-card glass-card animate-on-scroll">
+                    <div class="card-image">
+                        <img src="/lovable-uploads/35aa403b-b78b-4dca-95cc-9367df5bcde0.png" alt="Vibrant beach scene with colorful beach huts and traditional boats">
+                    </div>
+                    <div class="card-content">
+                        <h3>Dream Home Lots</h3>
+                        <p>Your architectural canvas. Build any style of dwelling you desire – from A-frame to Mediterranean – with our full development support, right there with you every step of the way.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="section features" id="features">
+        <div class="container">
+            <div class="features-grid">
+                <div class="feature-card glass-card animate-on-scroll">
+                    <div class="feature-icon">
+                        <i class="ph ph-bank"></i>
+                    </div>
+                    <h3>Unrivaled Financing</h3>
+                    <p>Up to 90% financing and 15-year payment plans make owning your piece of paradise genuinely accessible.</p>
+                </div>
+                <div class="feature-card glass-card animate-on-scroll">
+                    <div class="feature-icon">
+                        <i class="ph ph-file-text"></i>
+                    </div>
+                    <h3>Hassle-Free Process</h3>
+                    <p>We manage all legal documentation, property registration, and paperwork, ensuring a smooth, stress-free international acquisition.</p>
+                </div>
+                <div class="feature-card glass-card animate-on-scroll">
+                    <div class="feature-icon">
+                        <i class="ph ph-house-line"></i>
+                    </div>
+                    <h3>Full Development Support</h3>
+                    <p>Beyond land acquisition, we guide and support you through the entire process of building your dream home.</p>
+                </div>
+                <div class="feature-card glass-card animate-on-scroll">
+                    <div class="feature-icon">
+                        <i class="ph ph-map-pin"></i>
+                    </div>
+                    <h3>Prime Locations</h3>
+                    <p>Exclusive access to diverse, high-value lots, from direct beachfront to city-near, in Cartagena's fastest-growing areas.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Mission Statement Section -->
+    <section class="section mission" id="mission">
+        <div class="container">
+            <div class="section-header animate-on-scroll">
+                <h2 class="section-title">Our Mission: Democratizing Tropical Homeownership</h2>
+                <p class="section-description">AcuaBeach was founded on the belief that owning a piece of tropical paradise shouldn't be limited to multimillionaires and Hollywood stars. Our mission is to democratize access to prime international real estate, providing unparalleled financing, transparent processes, and comprehensive support to empower individuals and families to build equity and secure their dreams in a vibrant, flourishing market like Cartagena.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section class="section pricing" id="pricing">
+        <div class="container">
+            <div class="section-header animate-on-scroll">
+                <h2 class="section-title">Investment Options</h2>
+            </div>
+            <div class="pricing-grid">
+                <div class="pricing-card glass-card animate-on-scroll">
+                    <h3>Premium Beachfront Lot</h3>
+                    <div class="price">$200,000</div>
+                    <div class="price-per-sf">$100/sf</div>
+                    <p class="lot-description">Direct ocean access, unparalleled views. The pinnacle of Caribbean luxury.</p>
+                    <ul class="benefits-list">
+                        <li>Highest appreciation potential</li>
+                        <li>Exclusive front-row location</li>
+                        <li>Ultimate privacy</li>
+                    </ul>
+                    <button class="btn-secondary">View Details & Inquire</button>
+                </div>
+                <div class="pricing-card glass-card recommended animate-on-scroll">
+                    <div class="recommended-badge">Recommended</div>
+                    <h3>Beach Access Lot</h3>
+                    <div class="price">$140,000</div>
+                    <div class="price-per-sf">$70/sf</div>
+                    <p class="lot-description">Short, easy walk to pristine beaches. The perfect blend of luxury, convenience, and value.</p>
+                    <ul class="benefits-list">
+                        <li>Strong investment return</li>
+                        <li>Accessible luxury</li>
+                        <li>Vibrant community proximity</li>
+                        <li>Ideal for rental income</li>
+                    </ul>
+                    <button class="btn-primary">View Details & Inquire</button>
+                </div>
+                <div class="pricing-card glass-card animate-on-scroll">
+                    <h3>Tropical Paradise Lot</h3>
+                    <div class="price">$55,000</div>
+                    <div class="price-per-sf">$27.5/sf</div>
+                    <p class="lot-description">Secluded, lush, and serene inland properties. Embrace nature's tranquility.</p>
+                    <ul class="benefits-list">
+                        <li>Most affordable entry</li>
+                        <li>Peaceful retreat</li>
+                        <li>Expansive greenery</li>
+                        <li>Strong long-term growth</li>
+                    </ul>
+                    <button class="btn-secondary">View Details & Inquire</button>
+                </div>
+                <div class="pricing-card glass-card animate-on-scroll">
+                    <h3>Dream Home Lot (Build-Ready)</h3>
+                    <div class="price">Starting from $30,000</div>
+                    <div class="price-per-sf">Prefab Models</div>
+                    <p class="lot-description">An ideal canvas for your custom-built home. We assist in building any dwelling type, tailored to your vision.</p>
+                    <ul class="benefits-list">
+                        <li>Full architectural freedom</li>
+                        <li>Personalized investment</li>
+                        <li>Seamless construction support</li>
+                        <li>Cost-effective prefab options</li>
+                    </ul>
+                    <button class="btn-secondary">View Details & Inquire</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section contact" id="contact">
+        <div class="container">
+            <div class="section-header animate-on-scroll">
+                <h2 class="section-title">Ready to Start Your Journey?</h2>
+                <p class="section-description">Contact us today to learn more about our financing options and available properties.</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-form-container animate-on-scroll">
+                    <form class="contact-form glass-card" id="contact-form">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="name">Full Name</label>
+                                <input type="text" id="name" name="name" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email Address</label>
+                                <input type="email" id="email" name="email" required>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="phone">Phone Number</label>
+                                <input type="tel" id="phone" name="phone">
+                            </div>
+                            <div class="form-group">
+                                <label for="lot-type">Preferred Lot Type</label>
+                                <select id="lot-type" name="lot-type">
+                                    <option value="">Select an option</option>
+                                    <option value="beachfront">Premium Beachfront Lot</option>
+                                    <option value="beach-access">Beach Access Lot</option>
+                                    <option value="tropical">Tropical Paradise Lot</option>
+                                    <option value="dream-home">Dream Home Lot</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="4" placeholder="Tell us about your dream tropical property..."></textarea>
+                        </div>
+                        <button type="submit" class="btn-primary">
+                            Send Message
+                            <i class="ph ph-paper-plane-right"></i>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <h3>AcuaBeach</h3>
+                    <p>Democratizing tropical homeownership in beautiful Cartagena, Colombia.</p>
+                </div>
+                <div class="footer-links">
+                    <div class="footer-column">
+                        <h4>Quick Links</h4>
+                        <ul>
+                            <li><a href="#hero">Home</a></li>
+                            <li><a href="#why-cartagena">Why Cartagena</a></li>
+                            <li><a href="#lot-categories">Properties</a></li>
+                            <li><a href="#pricing">Pricing</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h4>Services</h4>
+                        <ul>
+                            <li><a href="#features">Financing</a></li>
+                            <li><a href="#features">Development Support</a></li>
+                            <li><a href="#why-us">Full Service</a></li>
+                            <li><a href="#contact">Consultation</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h4>Contact</h4>
+                        <ul>
+                            <li>Email: info@acuabeach.com</li>
+                            <li>Phone: +1 (555) 123-4567</li>
+                            <li>Cartagena, Colombia</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 AcuaBeach. All rights reserved. | Privacy Policy | Terms of Service</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
 </html>
